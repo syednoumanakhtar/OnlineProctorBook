@@ -1,0 +1,219 @@
+body {
+	background: #EFEFEF  url(../images/background9.jpg) repeat fixed;
+	background-size: 100%;
+	width: 1349px;
+	font-family: "QuattrocentoSans-Regular";
+	margin: 0;
+}
+/* Header */
+
+#header {
+	background: #444;
+	height: 72px;
+	background-color: #3c404b;
+	background: -moz-linear-gradient(#4d4f53, #111112);
+	background: linear-gradient(#4d4f53, #111112);
+	border-bottom: 1px solid #fff;
+}
+
+#header > div {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0px;
+	text-align: right;	
+}
+
+#header a {
+	color: #fff;
+	font-family: "Courier New", monospace;
+	font-size: 40px;
+	padding: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#logo {
+	float: left;
+	display: inline-block;
+	line-height: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation {
+	display: inline-block;
+	line-height: 55px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	float: left;
+	margin: 0 15px;
+}
+#navigation li:first-child {
+	margin-left: 0;
+}
+#navigation li a {
+	color: #fff;
+	font-family: "Andale Mono", monospace;
+	font-size: 20px;
+	padding: 0px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #ffc947;
+}
+
+/* Content */
+
+#content {
+	width: 60%;
+	height: auto;
+	float: right;
+	margin: 30px 30px 20px 10px;
+	padding: 25px;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+	font-family: "Fixed", monospace;
+}
+
+#name {
+	font-size: 40px;
+	padding: 35px 0 35px; 
+	font-family: "Fixed", monospace;
+}
+
+#table
+{
+border-collapse:collapse; 
+border-color:#282828; 
+border-style:solid; 
+border-width:2px;
+}
+
+#table td
+{
+border-color:#282828;
+border-style:solid; 
+border-width:1px;
+}
+
+.leftside {
+	width: 27%;
+	height: auto;
+	float: left;
+	margin: 30px 10px 10px 30px;
+	padding: 20px;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+	font-family: "Fixed", monospace;
+}
+
+#topic {
+	font-size: 28px;
+	font-weight: inherit;
+	padding: 20px 0 20px; 
+	font-family: "Fixed", monospace;
+}
+
+.leftside textarea, select {
+  height: 60px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+}
+.leftside textarea:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.leftside input[type=submit], select {
+width: 100%;
+display: block;
+margin-bottom: 10px;
+position: relative;
+border-radius: 4px;
+}
+.login-submit:hover {
+  border: 0px;
+  background-color: #f7f7f7;
+  color: #f5495e;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+}
+.login-submit {
+border: 0px;
+color: #fff;
+background-color: #f5495e;
+}
+.login-submit1:hover {
+  border: 0px;
+  background-color: #f7f7f7;
+  color: #4d90fe;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+}
+.login-submit1 {
+border: 0px;
+color: #fff;
+background-color: #4d90fe;
+}
+.login {
+text-align: center;
+font-size: 17px;
+font-family: "Fixed", monospace;
+font-weight: 700;
+height: 36px;
+padding: 0 8px;
+}
+
+.click-submit:hover {
+  border: 0px;
+  background-color: #fff;
+  color: #f5495e;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+	
+}
+.click-submit {
+border: 0px;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0,0.1);
+background-color: #f5495e;
+}
+.click1-submit:hover {
+  border: 0px;
+  color: #4d90fe;
+  background-color: #fff;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+}
+.click1-submit {
+border: 0px;
+text-shadow: 0 1px rgba(0,0,0,0.1);
+color: #fff;
+background-color: #4d90fe;
+}
+
+.click {
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+line-height: 1.8;
+font-size: 22px;
+font-family: "Fixed", monospace;
+font-weight: bold;
+height: 40px;
+width: 100%;
+display: block;
+margin-bottom: 10px;
+position: relative;
+border-radius: 4px;
+}

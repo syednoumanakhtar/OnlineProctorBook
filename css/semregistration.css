@@ -1,0 +1,140 @@
+body {
+	background: #EFEFEF  url(../images/background9.jpg) repeat fixed;
+	background-size: 100%;
+	width: 1349px;
+	font-family: "QuattrocentoSans-Regular";
+	margin: 0;
+}
+/* Header */
+
+#header {
+	background: #444;
+	height: 72px;
+	background-color: #3c404b;
+	background: -moz-linear-gradient(#4d4f53, #111112);
+	background: linear-gradient(#4d4f53, #111112);
+	border-bottom: 1px solid #fff;
+}
+
+#header > div {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0px;
+	text-align: right;	
+}
+
+#header a {
+	color: #fff;
+	font-family: "Courier New", monospace;
+	font-size: 40px;
+	padding: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#logo {
+	float: left;
+	display: inline-block;
+	line-height: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation {
+	display: inline-block;
+	line-height: 55px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	float: left;
+	margin: 0 15px;
+}
+#navigation li:first-child {
+	margin-left: 0;
+}
+#navigation li a {
+	color: #fff;
+	font-family: "Andale Mono", monospace;
+	font-size: 20px;
+	padding: 0px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #ffc947;
+}
+
+/* Content */
+
+#content {
+	width: 70%;
+	height: auto;
+	margin: 30px auto;
+	padding: 25px;
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+	font-family: "Fixed", monospace;
+}
+
+#name {
+	font-size: 40px;
+	padding: 35px 0 35px; 
+	font-family: "Fixed", monospace;
+}
+
+#table
+{
+	margin: 20px auto;
+	border-collapse:collapse; 
+	border-color:#282828; 
+	border-style:solid; 
+	border-width:2px;
+}
+
+#table td
+{
+	border-color:#282828;
+	border-style:solid; 
+	border-width:1px;
+}
+
+.semfield input[type=text], select {
+  	font-size: 18px;
+  	font-family: "Fixed", monospace;
+  	margin: 5px;
+  	background: #fff;
+  	border: 1px solid #d9d9d9;
+  	border-radius: 4px;
+  	border-top: 1px solid #c0c0c0;
+}
+.semfield input[type=submit], select {
+	margin-bottom: 10px;
+	position: relative;
+	border-radius: 4px;
+}
+
+.login-submit:hover {
+  border: 0px;
+  background-color: #f7f7f7;
+  color: #f5495e;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+}
+.login-submit {
+border: 0px;
+color: #fff;
+background-color: #f5495e;
+}
+.login {
+text-align: center;
+font-size: 17px;
+font-family: "Fixed", monospace;
+font-weight: 700;
+height: 36px;
+width: 100px;
+border-radius: 4px; 
+padding: 0 8px;
+}

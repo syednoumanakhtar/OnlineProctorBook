@@ -1,0 +1,91 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Online Proctor Book</title>
+	<link rel="stylesheet" href="css/signup.css" type="text/css">
+    <script src="javascript/staffvalidate.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div id="logo">
+				<a href="index.php">Online Proctor Book</a>
+			</div>
+			<div id="navigation">
+				<ul>
+					<li class="selected">
+						<a href="index.php">Home</a>
+					</li>
+					<li>
+						<a href="about.php">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="signup-card">
+		<form name="myForm" onsubmit="return (validate());" action="staffregister.php" method="post">
+		<h1>Sign Up Page</h1><br/>		
+		<table border="0"  cellpadding="8">
+			<tbody>
+					<tr>
+                        <th>Staff ID</th>
+                        <td><input type="text" name="sid" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>First Name</th>
+                        <td><input type="text" name="fname" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Last Name</th>
+                        <td><input type="text" name="lname" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Department</th>
+                        <td><input type="text" name="dept" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Designation</th>
+                        <td><input type="text" name="desg" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Qualification</th>
+                        <td><input type="text" name="qual" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Research Areas</th>
+                        <td><input type="text" name="res" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Email id</th>
+                        <td><input type="text" name="email" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Contact no</th>
+                        <td><input type="text" name="contact" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>User Name</th>
+                        <td><input type="text" name="uname" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td><input type="password" name="pass" value="" /></td>
+                    </tr>
+                    <tr>
+                        <th>Confirm Password</th>
+                        <td><input type="password" name="cpass" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" class="login login-submit" value="Submit" /></td>
+                        <td><input type="reset" class="login login-submit" value="Reset" /></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Already registered!! <a href="index.php">Login Here</a></th>
+                    </tr>
+            </tbody>
+        </table>
+		</form>
+	</div>
+</body>
+</html>
